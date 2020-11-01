@@ -1,0 +1,13 @@
+C:\Users\Jakub\source\repos\HangmanProject\bin\Debug\netcoreapp3.1\HangmanProject.exe
+C:\Users\Jakub\source\repos\HangmanProject\bin\Debug\netcoreapp3.1\HangmanProject.deps.json
+C:\Users\Jakub\source\repos\HangmanProject\bin\Debug\netcoreapp3.1\HangmanProject.runtimeconfig.json
+C:\Users\Jakub\source\repos\HangmanProject\bin\Debug\netcoreapp3.1\HangmanProject.runtimeconfig.dev.json
+C:\Users\Jakub\source\repos\HangmanProject\bin\Debug\netcoreapp3.1\HangmanProject.dll
+C:\Users\Jakub\source\repos\HangmanProject\bin\Debug\netcoreapp3.1\HangmanProject.pdb
+C:\Users\Jakub\source\repos\HangmanProject\obj\Debug\netcoreapp3.1\HangmanProject.csprojAssemblyReference.cache
+C:\Users\Jakub\source\repos\HangmanProject\obj\Debug\netcoreapp3.1\HangmanProject.AssemblyInfoInputs.cache
+C:\Users\Jakub\source\repos\HangmanProject\obj\Debug\netcoreapp3.1\HangmanProject.AssemblyInfo.cs
+C:\Users\Jakub\source\repos\HangmanProject\obj\Debug\netcoreapp3.1\HangmanProject.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\source\repos\HangmanProject\obj\Debug\netcoreapp3.1\HangmanProject.dll
+C:\Users\Jakub\source\repos\HangmanProject\obj\Debug\netcoreapp3.1\HangmanProject.pdb
+C:\Users\Jakub\source\repos\HangmanProject\obj\Debug\netcoreapp3.1\HangmanProject.genruntimeconfig.cache

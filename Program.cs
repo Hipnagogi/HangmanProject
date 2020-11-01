@@ -8,35 +8,34 @@ namespace HangmanProject
         {
             // Instacja klasy do losowania słowa ze słownika z pliku
             FileReaderClass fileReader = new FileReaderClass();
-            string word = fileReader.RandomWordFromDictionary();
-            bool playing = true;
-            bool win=false;
+            string word = fileReader.RandomWordFromDictionary().ToLower();
+            UserInputOutput play = new UserInputOutput(word);
+            // bool playing = true;
+            play.MenuIntro();
 
             // pętla może być przerwana w przypadku zwycięstwa i porażki. 
-            while (playing)
+            while (play.Lives > 0)
             {
-                Console.WriteLine("Podaj literę");
-                string userLetter =  Console.ReadLine().Substring(0,1);
-                if (word.Contains(userLetter))
+                play.NewRound();
+                play.CheckLetter(Console.ReadLine().Substring(0, 1).ToLower());
+                if (play.Wincheck())
                 {
-
-                }
-                else
-                {
-
+                    break;
                 }
             }
-
-            if (win)
+                
+            if (play.Win)
             {
-                Console.WriteLine("Gratulacje wygrałeś");
+                Console.WriteLine("Wygrałeś");
+                Console.ReadKey();
+                Environment.Exit(0);
             }
             else
             {
                 Console.WriteLine("Spróbuj jeszcze raz");
+                Console.ReadKey();
+                Environment.Exit(0);
             }
-
-
         }
     }
 }
